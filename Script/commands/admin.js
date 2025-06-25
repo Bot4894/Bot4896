@@ -27,7 +27,7 @@ module.exports.run = async function({ api, event }) {
 ┃ ❤️ 𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧  : Single
 ┃ 🎂 𝐀𝐠𝐞       : 21
 ┃ 🕌 𝐑𝐞𝐥𝐢𝐠𝐢𝐨𝐧  : Islam
-┃ 🏫 𝐄𝐝𝐮𝐜𝐚𝐭𝐢𝐨𝐧 : Bechalor of Degree
+┃ 🏫 𝐄𝐝𝐮𝐜𝐚𝐭𝐢𝐨𝐧 : Bechalor of degree
 ┃ 🏡 𝐀𝐝𝐝𝐫𝐞𝐬𝐬  : Brahmanbaria, Bangladesh
 ┣━━━━━━━━━━━━━━━━━━━━━┫
 ┃ 
