@@ -1,0 +1,25 @@
+name: Replace Names
+
+on:
+  workflow_dispatch:
+
+jobs:
+  rename:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - run: node rename.js
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add .
+          git commit -m "Auto rename credits to Khairol"
+          git push
