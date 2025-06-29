@@ -1,7 +1,7 @@
 module.exports.config = {
     name: "autosetname",
     version: "1.0.1",
-    hasPermssion: 1,
+    hasPermssion: 0,
     credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
     description: "Automatic setname for new members",
     commandCategory: "Box Chat",
